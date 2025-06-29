@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  padding: 20px;
+  color: #333;
+}
+
+#game-board {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  grid-gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.btn {
+  width: 150px;
+  height: 150px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+#green {
+  background-color: green;
+}
+
+#red {
+  background-color: red;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#blue {
+  background-color: blue;
+}
